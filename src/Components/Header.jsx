@@ -6,12 +6,18 @@ const Header = () => {
   const { theme, setTheme } = useContext(ThemeContext);
   return (
     <div className="flex items-center p-3">
-      <img src={logo} alt="Logo" width={60} height={60} />
+      <img
+        src={logo}
+        alt="Logo"
+        width={60}
+        height={60}
+        className="hidden sm:block"
+      />
       <div className="flex bg-slate-200 p-2 w-full items-center mx-5 rounded-full">
         <HiOutlineMagnifyingGlass />
         <input
           type="text"
-          className="px-2 bg-transparent outline-none"
+          className="px-2 bg-transparent outline-none min-w-[10px]"
           placeholder="Search Games"
         />
       </div>
