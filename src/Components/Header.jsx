@@ -17,7 +17,7 @@ const Header = () => {
         <HiOutlineMagnifyingGlass />
         <input
           type="text"
-          className="px-2 bg-transparent outline-none min-w-[10px]"
+          className="px-2 bg-transparent outline-none min-w-[10px] text-black"
           placeholder="Search Games"
         />
       </div>
