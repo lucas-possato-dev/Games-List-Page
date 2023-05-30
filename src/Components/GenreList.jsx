@@ -15,7 +15,7 @@ function GenreList({ genreId, selectedGenreName }) {
 
   return (
     <div>
-      <h2 className="text-[30px] font-bold dark:text-white text-gray-900">
+      <h2 className="text-[30px] font-bold dark:text-white text-gray-900 mb-5">
         Genres
       </h2>
       {genreList.map((item, index) => (
